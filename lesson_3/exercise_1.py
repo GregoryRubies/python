@@ -1,4 +1,4 @@
-# exercise 1
+# lesson_3 exercise 1 https://lms.synergy.ru/practicums/attempt/5025983/?groupPeriodId=1166613
 
 def insert_pets(file_name = "pets_list.txt")->str:
   print("Ввести данные питомца:".ljust(100, " "))
