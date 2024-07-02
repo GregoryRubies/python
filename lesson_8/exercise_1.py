@@ -12,6 +12,6 @@ def scope(v:str)->int:
     
 
 n =  int(input())
-if 1 <= n and n <= 100000:
+if 1 <= n and n <= 10000:
   print(*(([scope(input()) for i in range(n)])[::-1]))
-else: print('первое число должно быть от 1 до 100000')
+else: print('первое число должно быть от 1 до 10000')
